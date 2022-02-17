@@ -29,12 +29,6 @@ jobs:
         with:
           node-version: '12.x'
 
-      - uses: webfactory/ssh-agent@v0.5.2
-        with:
-          ssh-private-key: |
-            ${{ secrets.HYRAX_HUGO_BASE_THEME_DEPLOY_KEY }}
-            ${{ secrets.HYRAX_HUGO_ASSETS_DEPLOY_KEY }}
-
       - name: Cache dependencies
         uses: actions/cache@v1
         with:
@@ -44,10 +38,8 @@ jobs:
             ${{ runner.os }}-node-
 
       - run: npm ci
-      - run: node image-processor.js
       - uses: stefanzweifel/git-auto-commit-action@v4
       - run: hugo --minify
-
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
