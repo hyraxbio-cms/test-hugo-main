@@ -3,4 +3,5 @@ Then, after merging to &amp;ldquo;staging&amp;rdquo;, show up on the &amp;ldquo;
 Change on main, soon on staging</description></item><item><title>My First Post</title><link>https://hyrax-stanley.github.io/test-hugo-main/posts/my-first-post/</link><pubDate>Thu, 17 Feb 2022 14:14:23 +0200</pubDate><guid>https://hyrax-stanley.github.io/test-hugo-main/posts/my-first-post/</guid><description>This is my very first post I have inited the hugo repo
 I have now set it up so that github-pages gets updated live
 Changes are now being deployed on an external repo :)
-Change on main, soon on staging (2nd edition)</description></item></channel></rss>
+Change on main, soon on staging (2nd edition)
+Push on main</description></item></channel></rss>
