@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: hyrax-stanley/test-hugo-main
-  branch: main
+  branch: staging
   base_url: https://9s9ttkn75e.execute-api.eu-west-1.amazonaws.com
   auth_endpoint: /prod/auth
 media_folder: static/img
